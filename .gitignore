@@ -1,0 +1,33 @@
+build/
+
+# Ignore SDK configuration files
+sdkconfig
+sdkconfig.*
+
+# Ignore CMake build files
+CMakeFiles
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore compiled object files
+*.o
+*.obj
+*.elf
+
+# Ignore VSCode workspace settings
+.vscode/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+
+# Ignore Python virtual environments
+venv/
+.env/
+
+# Ignore macOS specific files
+.DS_Store
+._*
